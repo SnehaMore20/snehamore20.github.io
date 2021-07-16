@@ -58,7 +58,7 @@ education:
 experiences:
     - role: Sr. Devops Engineer
       time: 2020 Nov - Present
-      company: HTSI
+      company: HILTI Technology Solutions India
       details: |
         Details
           - Bullet point
@@ -73,6 +73,27 @@ experiences:
     - role: Sr. Devops Engineer
       time: 2018 June - 2018 Dec
       company: InfraCloud Technologies
+      details: |
+        Details
+          - Bullet point
+          - Bullet point
+    - role: Sr. Devops Engineer
+      time: 2015 Aug - 2018 May
+      company: Trimble Information Techologies
+      details: |
+        Details
+          - Bullet point
+          - Bullet point
+    - role: DevOps Associate Consultant
+      time: 2015 Feb - 2015 Aug
+      company: Capgemini
+      details: |
+        Details
+          - Bullet point
+          - Bullet point
+    - role: Software Developer
+      time: 2012 Feb - 2015 Feb
+      company: NTT DATA
       details: |
         Details
           - Bullet point
