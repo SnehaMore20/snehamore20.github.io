@@ -1,0 +1,119 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: Sneha More
+    tagline: Devops Engineer
+    avatar: profile.jpeg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: ------
+    phone: ------
+    linkedin: https://in.linkedin.com/in/sneha-more-46463a61
+    github: https://github.com/SnehaMore20
+    pdf: ------
+
+    languages:
+      - idiom: English
+        level: Professional
+
+      - idiom: Marathi
+        level: Native
+
+      - idiom: Hindi
+        level: Professional
+
+    interests:
+      - item: Painting/Sketcking/Creativity
+
+
+career-profile:
+    title: Career Profile
+    summary: |
+      Summarise your career here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. You can [download this free resume/CV template here]().
+      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
+      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+      Donec quam felis, ultricies nec, pellentesque eu.
+      Second paragraph if required.
+education:
+    - degree: Bachelor of Technology Electronics
+      university: Veermata Jijabai Technological Institute, Mumbai University
+      time: 2008 - 2012
+      percantage: 74%
+    - degree: Higher Secondary School(HSC)
+      university: K. R. K. Junior College, Chalisgaon
+      time: 2007 - 2008
+      percantage: 90.50%
+    - degree: Secondary School Certificate(SSC)
+      university: A. B.GirlsHighschool,Chalisgaon
+      time: 2005 - 2006
+      percantage: 91.46%
+
+experiences:
+    - role: Sr. Devops Engineer
+      time: 2020 Nov - Present
+      company: HTSI
+      details: |
+        Details
+          - Bullet point
+          - Bullet point
+    - role: Associate Consultant
+      time: 2018 Dec - 2020 Oct
+      company: GlobalLogic
+      details: |
+        Details
+          - Bullet point
+          - Bullet point
+    - role: Sr. Devops Engineer
+      time: 2018 June - 2018 Dec
+      company: InfraCloud Technologies
+      details: |
+        Details
+          - Bullet point
+          - Bullet point
+
+projects:
+    title: ACHIEVEMENT AWARDS AND INTERESTS
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    assignments:
+      - title: Board rank 8th in std X
+
+      - title: Rajarshree Chhatrapati Shahu Maharaj Gunavatta Puraskar
+
+      - title: Awarded by Maharashtra Girls Guide Rajya Puraskar
+
+      - title: Ranked 2nd in state in TMV (Tilak Maharashtra Vidyapeeth) Marathi 3rd exam
+
+      - title: Reached semifinals of INT(Indian national theater) competition
+
+
+skills:
+    title: Skills &amp; Proficiency
+
+    toolset:
+      - name: Kubernetes
+        level: 80%
+
+      - name: AWS
+        level: 80%
+
+      - name: CI-CD
+        level: 80%
+
+      - name: Monitoring
+        level: 70%
+
+      - name: IAAS
+        level: 90%
+
+footer: >
+    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
