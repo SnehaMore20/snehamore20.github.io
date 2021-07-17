@@ -12,11 +12,9 @@ sidebar:
     avatar: myprofile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: ------
-    phone: ------
+    email: snehamore204@gmail.com
     linkedin: https://in.linkedin.com/in/sneha-more-46463a61
     github: https://github.com/SnehaMore20
-    pdf: ------
 
     languages:
       - idiom: English
@@ -29,18 +27,15 @@ sidebar:
         level: Professional
 
     interests:
-      - item: Painting/Sketcking/Creativity
+      - item: Painting, Sketcking, Art and Craft, Gardening
 
 
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+          DevOps Engineer with 9+ years of extensive experience in AWS, Kubernetes, Build Release Management and Configuration Management.
+          Highly proficient in building CI/CD pipelines, automating cloud infrastructure, orchestrating containers using Kubernetes,  scaling robust AWS infrastructure for quickly growing applications, continuous monitoring and DevOps processes.
+          Strong interpersonal skills, team-working attitude, takes initiatives and proactive in solving problems and providing best solutions.
 education:
     - degree: Bachelor of Technology Electronics
       university: Veermata Jijabai Technological Institute, Mumbai University
@@ -126,6 +121,12 @@ skills:
 
       - name: Orchestration
         tools: Kubernetes
+
+      - name: Containerization
+        tools: Docker
+
+      - name: SCM
+        tools: Git, SVN
 
       - name: CI/CD
         tools: Jenkins, Gitlab, ArgoCD
