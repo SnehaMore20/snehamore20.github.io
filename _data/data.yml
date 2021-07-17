@@ -94,24 +94,6 @@ experiences:
           - Bullet point
           - Bullet point
 
-projects:
-    title: ACHIEVEMENT AWARDS AND INTERESTS
-    intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    assignments:
-      - title: Board rank 8th in std X
-
-      - title: Rajarshree Chhatrapati Shahu Maharaj Gunavatta Puraskar
-
-      - title: Awarded by Maharashtra Girls Guide Rajya Puraskar
-
-      - title: Ranked 2nd in state in TMV (Tilak Maharashtra Vidyapeeth) Marathi 3rd exam
-
-      - title: Reached semifinals of INT(Indian national theater) competition
-
-
 skills:
     title: Skills
 
@@ -141,8 +123,24 @@ skills:
         tools: Terraform
 
       - name: Operating Systems
-        tools: Linux (Ubuntu, CentOS, RHEL), Windows, Mac OS X       
+        tools: Linux (Ubuntu, CentOS, RHEL), Windows, Mac OS X
 
+projects:
+    title: ACHIEVEMENT AWARDS AND INTERESTS
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    assignments:
+      - title: Board rank 8th in std X
+
+      - title: Rajarshree Chhatrapati Shahu Maharaj Gunavatta Puraskar
+
+      - title: Awarded by Maharashtra Girls Guide Rajya Puraskar
+
+      - title: Ranked 2nd in state in TMV (Tilak Maharashtra Vidyapeeth) Marathi 3rd exam
+
+      - title: Reached semifinals of INT(Indian national theater) competition
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
