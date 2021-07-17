@@ -14,9 +14,9 @@
     
     
 
-  <!-- <div class="skillset"> -->
+  <div class="skillset">
 
-    <!-- {% for skill in skills.toolset %} -->
+    {% for skill in skills.toolset %}
     <!-- <div class="item">
 
       <h3 class="level-title">{{ skill.name }}</h3>
@@ -43,14 +43,14 @@
       </style>
       <table>
         <tr>
-          <td>{{ skills.toolset.name }}</td>
-          <td>{{ skills.toolset.tools }}</td>
+          <td>{{ skill.name }}</td>
+          <td>{{ skill.tools }}</td>
         </tr>
       </table>
-    <!-- {% endfor %} -->
+    {% endfor %}
 
 
-  <!-- </div> -->
+  </div>
 
 </section>
 {% endif %}
