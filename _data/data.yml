@@ -119,7 +119,7 @@ skills:
       - name: Cloud
         tools: AWS
 
-      - name: Infrastructure Prvisioning
+      - name: Infrastructure Provisioning
         tools: Terraform
 
       - name: Operating Systems
