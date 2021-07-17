@@ -43,9 +43,11 @@
       </style>
       <table>
         <tr>
-          <td>"test1"</td>
-          <td>"test2"</td>
-        </tr>
+        {% for skill in skills.toolset %}
+          <td>{{ skill.name }}</td>
+          <td>{{ skill.tools }}</td>
+        {% endfor %}
+        <tr>
       </table>
     <!-- {% endfor %} -->
 
