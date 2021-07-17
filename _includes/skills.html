@@ -9,11 +9,6 @@
     </span>
     {{ skills.title }}
   </h2>
-
-
-    
-    
-  <div class="skillset">
     <style>
       table {
         font-family: arial, sans-serif;
@@ -27,31 +22,13 @@
         padding: 8px;
       }
   
-      </style>
-    {% for skill in skills.toolset %}
-    <div class="item">
-
-      <!-- <h3 class="level-title">{{ skill.name }}</h3>
-
-      <div class="level-bar">
-        <div class="level-bar-inner" data-level="{{ skill.level }}">
-        </div>
-      </div>
-
-    </div> -->
-
+    </style>
       <table>
         <tr>
           <td>{{skill.name }}</td>
           <td>{{ skill.tools }}</td>
         </tr>
       </table>
-    </div> 
-  </div> 
-
-
-
-  <!-- -->
 
 </section>
 {% endif %}
