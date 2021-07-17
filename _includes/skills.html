@@ -32,13 +32,13 @@
     
     <table>
       <tr>
-        <th>Technology</th>
-        <th>Tool</th>
+        <th>Configuration Managment</th>
+        <td>Tool</td>
       </tr>
       {% for skill in skills.toolset %}
       <tr>
-        <td>Configuration Managment</td>
-        <td>Puppet, Ansible, teacsvbghnjjmnhbgfvcdsxcdfvgbhnjmnhgbfv</td>
+        <td>{{ skill.name }}</td>
+        <td>{{ skill.tools }}</td>
       </tr>
       {% endfor %}
     </table>

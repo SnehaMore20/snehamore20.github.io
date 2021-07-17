@@ -121,20 +121,27 @@ skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Kubernetes
-        level: 80%
+      - name: Configuration Management
+        tools: Ansible, Puppet
 
-      - name: AWS
-        level: 80%
+      - name: Orchestration
+        tools: Kubernetes
 
-      - name: CI-CD
-        level: 80%
+      - name: CI/CD
+        tools: Jenkins, Gitlab, ArgoCD
 
       - name: Monitoring
-        level: 70%
+        tools: Grafana, Prometheus, Kibana, Datadog, CloudWatch
 
-      - name: IAAS
-        level: 90%
+      - name: Cloud
+        tools: AWS
+
+      - name: Infrastructure Prvisioning
+        tools: Terraform
+
+      - name: Operating Systems
+        tools: Linux (Ubuntu, CentOS, RHEL), Windows, Mac OS X       
+
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
