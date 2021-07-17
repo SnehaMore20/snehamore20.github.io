@@ -14,7 +14,7 @@
     
     
 
-  <div class="skillset">
+  <!-- <div class="skillset"> -->
 
     <!-- {% for skill in skills.toolset %} -->
     <!-- <div class="item">
@@ -42,15 +42,17 @@
   
       </style>
       <table>
+        {% for skill in skills.toolset %}
         <tr>
-          <td>{{ skills.toolset.name }}</td>
-          <td>{{ skills.toolset.tools }}</td>
+          <td>{{ skill.name }}</td>
+          <td>{{ skill.tools }}</td>
         </tr>
+        {% endfor %}
       </table>
     <!-- {% endfor %} -->
 
 
-  </div>
+  <!-- </div> -->
 
 </section>
 {% endif %}
