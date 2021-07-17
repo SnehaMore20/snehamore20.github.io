@@ -24,10 +24,12 @@
   
     </style>
       <table>
+        {% for skill in skills.toolset %}
         <tr>
-          <td>{{skill.name }}</td>
+          <td>{{ skill.name }}</td>
           <td>{{ skill.tools }}</td>
         </tr>
+        {% endfor %}
       </table>
 
 </section>
