@@ -10,34 +10,7 @@
     {{ skills.title }}
   </h2>
 
-    <!-- <style>
-    table {
-      font-family: arial, sans-serif;
-      border-collapse: collapse;
-      width: 100%;
-    }
-    
-    td, th {
-      border: 1px solid #dddddd;
-      text-align: left;
-      padding: 8px;
-    }
-    
-    tr:nth-child(0) {
-      background-color: #469ab4
-    }
-    </style>
-    </head>
-    <body>
-    
-    <table>
-      {% for skill in skills.toolset %}
-      <tr>
-        <td>{{ skill.name }}</td>
-        <td>{{ skill.tools }}</td>
-      </tr>
-      {% endfor %}
-    </table> -->
+
     
     
 
@@ -54,6 +27,28 @@
       </div> -->
 
     </div>
+    <style>
+      table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+      }
+      
+      td, th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+      }
+  
+      </style>
+      <table>
+        {% for skill in skills.toolset %}
+        <tr>
+          <td>{{ skill.name }}</td>
+          <td>{{ skill.tools }}</td>
+        </tr>
+        {% endfor %}
+      </table>
     {% endfor %}
 
 
