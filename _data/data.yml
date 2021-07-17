@@ -132,7 +132,8 @@ projects:
       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
     assignments:
-      - title: Board rank 8th in std X
+      - title: |
+          - Board rank 8th in std X
 
       - title: Rajarshree Chhatrapati Shahu Maharaj Gunavatta Puraskar
 
