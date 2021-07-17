@@ -16,3 +16,96 @@
     
 </section><!--//section-->
 {% endif %}
+
+{% assign skills = site.data.data.skills %}
+{% if skills %}
+<section class="skills-section section">
+
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-wrench fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ skills.title }}
+  </h2>
+
+    <style>
+    table {
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+    }
+    
+    td, th {
+      border: 1px solid #dddddd;
+      text-align: left;
+      padding: 8px;
+    }
+    
+    tr:nth-child(0) {
+      background-color: #469ab4
+    }
+    </style>
+    </head>
+    <body>
+    
+    <table>
+      {% for skill in skills.toolset %}
+      <tr>
+        <td>{{ skill.name }}</td>
+        <td>{{ skill.tools }}</td>
+      </tr>
+      {% endfor %}
+    </table>
+    
+    
+
+  <!-- <div class="skillset">
+
+    {% for skill in skills.toolset %}
+    <div class="item">
+
+      <h3 class="level-title">{{ skill.name }}</h3>
+
+      <div class="level-bar">
+        <div class="level-bar-inner" data-level="{{ skill.level }}">
+        </div>
+      </div>
+
+    </div>
+    {% endfor %} -->
+
+
+
+    <!-- {% for skill in skills.toolset %}
+    <div class="table">
+    
+      <div class="row header blue">
+        <div class="cell">
+          Techonology
+        </div>
+        <div class="cell">
+          Tools
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="cell" data-title="Username">
+          Configuration Managment
+        </div>
+        <div class="cell" data-title="Email">
+          Ansible, puppet, terraform
+        </div>
+      </div>
+      
+    </div>
+    {% endfor %} -->
+
+  </div>
+
+</section>
+{% endif %}
+
+
+
+
