@@ -1,17 +1,79 @@
 {% assign skills = site.data.data.skills %}
 {% if skills %}
-<!-- <section class="skills-section section"> -->
+<section class="skills-section section">
 
-  <!-- <h2 class="section-title">
+  <h2 class="section-title">
     <span class="fa-stack fa-xs">
       <i class="fas fa-circle fa-stack-2x"></i>
       <i class="fas fa-wrench fa-stack-1x fa-inverse"></i>
     </span>
     {{ skills.title }}
-  </h2> -->
+  </h2>
 
-  <!-- <div class="skillset"> -->
-<!--
+    <style>
+    table {
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+    }
+    
+    td, th {
+      border: 1px solid #dddddd;
+      text-align: left;
+      padding: 8px;
+    }
+    
+    tr:nth-child(even) {
+      background-color: #dddddd;
+    }
+    </style>
+    </head>
+    <body>
+    
+    <h2>HTML Table</h2>
+    
+    <table>
+      <tr>
+        <th>Company</th>
+        <th>Contact</th>
+        <th>Country</th>
+      </tr>
+      <tr>
+        <td>Alfreds Futterkiste</td>
+        <td>Maria Anders</td>
+        <td>Germany</td>
+      </tr>
+      <tr>
+        <td>Centro comercial Moctezuma</td>
+        <td>Francisco Chang</td>
+        <td>Mexico</td>
+      </tr>
+      <tr>
+        <td>Ernst Handel</td>
+        <td>Roland Mendel</td>
+        <td>Austria</td>
+      </tr>
+      <tr>
+        <td>Island Trading</td>
+        <td>Helen Bennett</td>
+        <td>UK</td>
+      </tr>
+      <tr>
+        <td>Laughing Bacchus Winecellars</td>
+        <td>Yoshi Tannamuri</td>
+        <td>Canada</td>
+      </tr>
+      <tr>
+        <td>Magazzini Alimentari Riuniti</td>
+        <td>Giovanni Rovelli</td>
+        <td>Italy</td>
+      </tr>
+    </table>
+    
+    
+
+  <!-- <div class="skillset">
+
     {% for skill in skills.toolset %}
     <div class="item">
 
@@ -23,87 +85,10 @@
       </div>
 
     </div>
-    {% endfor %}-->
-    <div class="wrapper">
-      <div class="table">
-        
-        <div class="row header blue">
-          <div class="cell">
-            Username
-          </div>
-          <div class="cell">
-            Email
-          </div>
-          <div class="cell">
-            Password
-          </div>
-          <div class="cell">
-            Active
-          </div>
-        </div>
-        
-        <div class="row">
-          <div class="cell" data-title="Username">
-            ninjalug
-          </div>
-          <div class="cell" data-title="Email">
-            misterninja@hotmail.com
-          </div>
-          <div class="cell" data-title="Password">
-            ************
-          </div>
-          <div class="cell" data-title="Active">
-            Yes
-          </div>
-        </div>
-        
-        <div class="row">
-          <div class="cell" data-title="Username">
-            jsmith41
-          </div>
-          <div class="cell" data-title="Email">
-            joseph.smith@gmail.com
-          </div>
-          <div class="cell" data-title="Password">
-            ************
-          </div>
-          <div class="cell" data-title="Active">
-            No
-          </div>
-        </div>
-        
-        <div class="row">
-          <div class="cell" data-title="Username">
-            1337hax0r15
-          </div>
-          <div class="cell" data-title="Email">
-            hackerdude1000@aol.com
-          </div>
-          <div class="cell" data-title="Password">
-            ************
-          </div>
-          <div class="cell" data-title="Active">
-            Yes
-          </div>
-        </div>
-        
-        <div class="row">
-          <div class="cell" data-title="Username">
-            hairyharry19
-          </div>
-          <div class="cell" data-title="Email">
-            harryharry@gmail.com
-          </div>
-          <div class="cell" data-title="Password">
-            ************
-          </div>
-          <div class="cell" data-title="Active">
-            Yes
-          </div>
-        </div>
-        
-      </div>
-    </div>
+    {% endfor %} -->
+
+
+
     <!-- {% for skill in skills.toolset %}
     <div class="table">
     
@@ -128,9 +113,9 @@
     </div>
     {% endfor %} -->
 
-  <!-- </div> -->
+  </div>
 
-<!-- </section> -->
+</section>
 {% endif %}
 
 
