@@ -27,13 +27,25 @@
 
     {% for skill in skills.toolset %}
     <div class="table">
-      <div class="table-content">
-          <div class="table-row">
-            <div class="table-data">{{ skill.name }}</div>
-            <div class="table-data">{{ skill.level }}</div>
+    
+      <div class="row header blue">
+        <div class="cell">
+          Techonology
+        </div>
+        <div class="cell">
+          Tools
         </div>
       </div>
-
+      
+      <div class="row">
+        <div class="cell" data-title="Username">
+          Configuration Managment
+        </div>
+        <div class="cell" data-title="Email">
+          Ansible, puppet, terraform
+        </div>
+      </div>
+      
     </div>
     {% endfor %}
 
