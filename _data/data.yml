@@ -64,7 +64,7 @@ experiences:
       details: |
         **Project AM2.0**
         Managing application environment and platform hosted on AWS and on Vspehere.
-Managing the Product Release cycles and provide maximum automation in the deployment process. Mentoring team during the complete release cycle of the application for smooth release and deployment. Core team member for automated infrastructure and application deployments.
+        Managing the Product Release cycles and provide maximum automation in the deployment process. Mentoring team during the complete release cycle of the application for smooth release and deployment. Core team member for automated infrastructure and application deployments.
           - Guiding team members for the application deployments (Production, QA, SIT, UAT)
           - Manage complete release cycle
           - Automated launch of infrastructure using cloudformation, Ansible and Puppet
