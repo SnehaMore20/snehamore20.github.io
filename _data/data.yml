@@ -63,12 +63,15 @@ experiences:
       company: GlobalLogic
       details: |
         **Project AM2.0**
+
         Managing application environment and platform hosted on AWS and on Vspehere.
         Managing the Product Release cycles and provide maximum automation in the deployment process. Mentoring team during the complete release cycle of the application for smooth release and deployment. Core team member for automated infrastructure and application deployments.
           - Guiding team members for the application deployments (Production, QA, SIT, UAT)
           - Manage complete release cycle
           - Automated launch of infrastructure using cloudformation, Ansible and Puppet
           - Handling internal project management tools like Jira, Jenkins, Github and automation of administrative tasks.
+        
+        
         **Project AM3.0**
         Revamp of the AM2.0 Project into a microservices based architecture for performance scaling and enhanced modularity.
           - Leverage the concept of Infrastructure as code to automatically provision underlying infrastructure Setup and management of the microservice cluster using kubernetes
